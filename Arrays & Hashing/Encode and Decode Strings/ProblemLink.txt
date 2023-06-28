@@ -1,0 +1,5 @@
+Premium:
+https://leetcode.com/problems/encode-and-decode-strings/
+
+Free:
+https://www.lintcode.com/problem/659/
