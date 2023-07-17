@@ -3,28 +3,31 @@
 # LeetCodeProblems
 
 ## Overall progress
-![](https://progress-bar.dev/15/?scale=75&suffix=/75) **Blind 75**
+![](https://progress-bar.dev/16/?scale=75&suffix=/75) **Blind75**
 
-![](https://progress-bar.dev/18/?scale=150&suffix=/150) **NeetCode 150**
+![](https://progress-bar.dev/22/?scale=150&suffix=/150) **NeetCode150**
 
-## Progress in solving NeetCode 150 problems
-| Topic | Progress |
-| :---: | :---: |
-| ![Arrays & Hashing](https://github.com/christopher-pedraza/LeetCodeProblems/tree/1f90bf93f86ee2ebdc415105673ffa2efbc2f31e/Arrays%20%26%20Hashing) | ![](https://progress-bar.dev/9/?scale=9&suffix=/9) |
-| ![Two Pointers](https://github.com/christopher-pedraza/LeetCodeProblems/tree/1f90bf93f86ee2ebdc415105673ffa2efbc2f31e/Two%20Pointers) | ![](https://progress-bar.dev/5/?scale=5&suffix=/5) |
-| ![Sliding Window](https://github.com/christopher-pedraza/LeetCodeProblems/tree/1f90bf93f86ee2ebdc415105673ffa2efbc2f31e/Sliding%20Window) | ![](https://progress-bar.dev/4/?scale=6&suffix=/6) |
-| Stack | ![](https://progress-bar.dev/0/?scale=7&suffix=/7) |
-| Binary Search | ![](https://progress-bar.dev/0/?scale=7&suffix=/7) |
-| Linked List | ![](https://progress-bar.dev/0/?scale=11&suffix=/11) |
-| Trees | ![](https://progress-bar.dev/0/?scale=15&suffix=/15) |
-| Tries | ![](https://progress-bar.dev/0/?scale=3&suffix=/3) |
-| Heap/Priority Queue | ![](https://progress-bar.dev/0/?scale=7&suffix=/7) |
-| Backtracking | ![](https://progress-bar.dev/0/?scale=9&suffix=/9) |
-| Graphs | ![](https://progress-bar.dev/0/?scale=13&suffix=/13) |
-| Advanced Graphs | ![](https://progress-bar.dev/0/?scale=6&suffix=/6) |
-| 1-D Dynamic Programming | ![](https://progress-bar.dev/0/?scale=12&suffix=/12) |
-| 2-D Dynamic Programming | ![](https://progress-bar.dev/0/?scale=11&suffix=/11) |
-| Greedy | ![](https://progress-bar.dev/0/?scale=8&suffix=/8) |
-| Intervals | ![](https://progress-bar.dev/0/?scale=6&suffix=/6) |
-| Math & Geometry | ![](https://progress-bar.dev/0/?scale=8&suffix=/8) |
-| Bit Manipulation | ![](https://progress-bar.dev/0/?scale=7&suffix=/7) |
+## Progress per list of problems
+
+| Topic | Blind75 | NeetCode150 |
+| :---:| :---:| :---: |
+| ![01. Arrays & Hashing](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/01.%20Arrays%20%26%20Hashing) | ![](https://progress-bar.dev/8/?scale=8&suffix=/8) | ![](https://progress-bar.dev/9/?scale=9&suffix=/9) |
+| ![02. Two Pointers](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/02.%20Two%20Pointers) | ![](https://progress-bar.dev/3/?scale=3&suffix=/3) | ![](https://progress-bar.dev/5/?scale=5&suffix=/5) |
+| ![03. Sliding Window](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/03.%20Sliding%20Window) | ![](https://progress-bar.dev/4/?scale=4&suffix=/4) | ![](https://progress-bar.dev/4/?scale=6&suffix=/6) |
+| ![04. Stack](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/04.%20Stack) | ![](https://progress-bar.dev/1/?scale=1&suffix=/1) | ![](https://progress-bar.dev/4/?scale=7&suffix=/7) |
+| ![05. Binary Search](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/05.%20Binary%20Search) | ![](https://progress-bar.dev/0/?scale=2&suffix=/2) | ![](https://progress-bar.dev/0/?scale=7&suffix=/7) |
+| ![06. Linked List](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/06.%20Linked%20List) | ![](https://progress-bar.dev/0/?scale=6&suffix=/6) | ![](https://progress-bar.dev/0/?scale=11&suffix=/11) |
+| ![07. Trees](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/07.%20Trees) | ![](https://progress-bar.dev/0/?scale=11&suffix=/11) | ![](https://progress-bar.dev/0/?scale=15&suffix=/15) |
+| ![08. Tries](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/08.%20Tries) | ![](https://progress-bar.dev/0/?scale=3&suffix=/3) | ![](https://progress-bar.dev/0/?scale=3&suffix=/3) |
+| ![09. Heap - Priority Queue](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/09.%20Heap%20-%20Priority%20Queue) | ![](https://progress-bar.dev/0/?scale=1&suffix=/1) | ![](https://progress-bar.dev/0/?scale=7&suffix=/7) |
+| ![10. Backtracking](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/10.%20Backtracking) | ![](https://progress-bar.dev/0/?scale=2&suffix=/2) | ![](https://progress-bar.dev/0/?scale=9&suffix=/9) |
+| ![11. Graphs](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/11.%20Graphs) | ![](https://progress-bar.dev/0/?scale=6&suffix=/6) | ![](https://progress-bar.dev/0/?scale=13&suffix=/13) |
+| ![12. Advanced Graphs](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/12.%20Advanced%20Graphs) | ![](https://progress-bar.dev/0/?scale=1&suffix=/1) | ![](https://progress-bar.dev/0/?scale=6&suffix=/6) |
+| ![13. 1-D Dynamic Programming](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/13.%201-D%20Dynamic%20Programming) | ![](https://progress-bar.dev/0/?scale=10&suffix=/10) | ![](https://progress-bar.dev/0/?scale=12&suffix=/12) |
+| ![14. 2-D Dynamic Programming](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/14.%202-D%20Dynamic%20Programming) | ![](https://progress-bar.dev/0/?scale=2&suffix=/2) | ![](https://progress-bar.dev/0/?scale=11&suffix=/11) |
+| ![15. Greedy](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/15.%20Greedy) | ![](https://progress-bar.dev/0/?scale=2&suffix=/2) | ![](https://progress-bar.dev/0/?scale=8&suffix=/8) |
+| ![16. Intervals](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/16.%20Intervals) | ![](https://progress-bar.dev/0/?scale=5&suffix=/5) | ![](https://progress-bar.dev/0/?scale=6&suffix=/6) |
+| ![17. Math & Geometry](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/17.%20Math%20%26%20Geometry) | ![](https://progress-bar.dev/0/?scale=3&suffix=/3) | ![](https://progress-bar.dev/0/?scale=8&suffix=/8) |
+| ![18. Bit Manipulation](https://github.com/christopher-pedraza/LeetCodeProblems/tree/0f15be41e73659504c2f844501cd6ae472f6cd2c/18.%20Bit%20Manipulation) | ![](https://progress-bar.dev/0/?scale=5&suffix=/5) | ![](https://progress-bar.dev/0/?scale=7&suffix=/7) |
+
+Made with ![LeetCode Progress Tracker](https://github.com/christopher-pedraza/leetcode-problem-tracker/)
