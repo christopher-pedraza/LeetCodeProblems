@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/christopher-pedraza/LeetCodeProblems)
 
 # LeetCodeProblems
 
