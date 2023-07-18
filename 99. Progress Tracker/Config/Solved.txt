@@ -20,3 +20,4 @@ Valid Parentheses
 Min Stack
 Daily Temperatures
 Largest Rectangle In Histogram
+generate parentheses
