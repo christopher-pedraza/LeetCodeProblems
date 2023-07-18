@@ -22,3 +22,4 @@ Daily Temperatures
 Largest Rectangle In Histogram
 generate parentheses
 evaluate reverse polish notation
+binary search
