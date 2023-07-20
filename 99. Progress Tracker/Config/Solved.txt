@@ -1,26 +1,14 @@
-Contains Duplicate
-Valid Anagram
-Two Sum
-Group Anagrams
-Top K Frequent Elements
-Product of Array Except Self
-Valid Sudoku
-Encode and Decode Strings
-Longest Consecutive Sequence
-Valid Palindrome
-Two Sum II Input Array Is Sorted
-3Sum
-Container With Most Water
-Trapping Rain Water
-Best Time to Buy And Sell Stock
-Longest Substring Without Repeating Characters
-Longest Repeating Character Replacement
-Minimum Window Substring
-Valid Parentheses
-Min Stack
-Daily Temperatures
-Largest Rectangle In Histogram
-generate parentheses
-evaluate reverse polish notation
-binary search
-permutation in string
+
+longest consecutive sequence
+contains duplicate
+valid parentheses
+valid palindrome
+two sum
+valid anagram
+two sum ii input array is sorted
+top k frequent elements
+group anagrams
+product of array except self
+container with most water
+valid sudoku
+encode and decode strings
