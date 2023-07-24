@@ -1,4 +1,3 @@
-
 longest consecutive sequence
 contains duplicate
 valid parentheses
@@ -12,6 +11,17 @@ product of array except self
 container with most water
 valid sudoku
 encode and decode strings
-
 binary search
 search a 2d matrix
+3sum
+trapping rain water
+best time to buy and sell stock
+longest substring without repeating characters
+longest repeating character replacement
+permutation in string
+minimum window substring
+min stack
+evaluate reverse polish notation
+generate parentheses
+daily temperatures
+largest rectangle in histogram
