@@ -12,3 +12,6 @@ product of array except self
 container with most water
 valid sudoku
 encode and decode strings
+
+binary search
+search a 2d matrix
