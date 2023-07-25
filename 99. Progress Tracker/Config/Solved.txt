@@ -26,3 +26,4 @@ generate parentheses
 daily temperatures
 largest rectangle in histogram
 median of two sorted arrays
+find minimum in rotated sorted array
