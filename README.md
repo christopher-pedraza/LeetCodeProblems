@@ -3,9 +3,9 @@
 # LeetCodeProblems
 
 ## Overall progress
-![](https://progress-bar.dev/17/?scale=75&suffix=/75) **Blind75**
+![](https://progress-bar.dev/18/?scale=75&suffix=/75) **Blind75**
 
-![](https://progress-bar.dev/29/?scale=150&suffix=/150) **NeetCode150**
+![](https://progress-bar.dev/30/?scale=150&suffix=/150) **NeetCode150**
 
 ## Progress per list of problems
 
@@ -15,7 +15,7 @@
 | ![02. Two Pointers](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/02.%20Two%20Pointers) | ![](https://progress-bar.dev/3/?scale=3&suffix=/3) | ![](https://progress-bar.dev/5/?scale=5&suffix=/5) |
 | ![03. Sliding Window](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/03.%20Sliding%20Window) | ![](https://progress-bar.dev/4/?scale=4&suffix=/4) | ![](https://progress-bar.dev/5/?scale=6&suffix=/6) |
 | ![04. Stack](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/04.%20Stack) | ![](https://progress-bar.dev/1/?scale=1&suffix=/1) | ![](https://progress-bar.dev/6/?scale=7&suffix=/7) |
-| ![05. Binary Search](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/05.%20Binary%20Search) | ![](https://progress-bar.dev/1/?scale=2&suffix=/2) | ![](https://progress-bar.dev/4/?scale=7&suffix=/7) |
+| ![05. Binary Search](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/05.%20Binary%20Search) | ![](https://progress-bar.dev/2/?scale=2&suffix=/2) | ![](https://progress-bar.dev/5/?scale=7&suffix=/7) |
 | ![06. Linked List](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/06.%20Linked%20List) | ![](https://progress-bar.dev/0/?scale=6&suffix=/6) | ![](https://progress-bar.dev/0/?scale=11&suffix=/11) |
 | ![07. Trees](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/07.%20Trees) | ![](https://progress-bar.dev/0/?scale=11&suffix=/11) | ![](https://progress-bar.dev/0/?scale=15&suffix=/15) |
 | ![08. Tries](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/08.%20Tries) | ![](https://progress-bar.dev/0/?scale=3&suffix=/3) | ![](https://progress-bar.dev/0/?scale=3&suffix=/3) |
