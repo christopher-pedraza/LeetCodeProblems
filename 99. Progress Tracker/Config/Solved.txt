@@ -28,3 +28,4 @@ largest rectangle in histogram
 median of two sorted arrays
 find minimum in rotated sorted array
 search in rotated sorted array
+reverse linked list
