@@ -156,6 +156,15 @@ class ProblemTracker:
             print('\033[96m', end="")
         return '\033[96m'
 
+    # Functions to assign red color when printing to the console
+    def red(self, doPrint=True):
+        # It always return the value in case you want to use it as an
+        # intext modifier, but can also print it so it affects all
+        # after it
+        if doPrint:
+            print('\033[91m', end="")
+        return '\033[91m'
+
     # Print the problem with certain format
     def printProblem(self, i, p, bullet):
         print(f"{bullet}{i+1}) {p}")
@@ -386,6 +395,7 @@ class ProblemTracker:
                 os.system(f'git commit -m "Add \'{p[p_index-1]}\' solution"')
                 print(f'{self.cyan(False)}git push origin main{self.normal(False)}')
                 os.system('git push origin main')
+                print()
 
     def markAsUnsolved(self):
         # Get the indexes of the categories that have no solved problem and
@@ -433,6 +443,7 @@ class ProblemTracker:
                 os.system(f'git commit -m "Add \'{p[p_index-1]}\' solution"')
                 print(f'{self.cyan(False)}git push origin main{self.normal(False)}')
                 os.system('git push origin main')
+                print()
 
     def getSolvedProblemsByList(self, list_name):
         solved = 0
@@ -539,12 +550,17 @@ class ProblemTracker:
             
     def toggleAutoPush(self):
         if self.auto_push:
-            config.set('MISC', 'auto_push','FALSE')
+            print(f'Set Auto Push to {self.red()}False{self.normal()}')
+            self.config.set('MISC', 'auto_push','FALSE')
+            self.auto_push = False
         else:
-            config.set('MISC', 'auto_push','TRUE')
+            print(f'Set Auto Push to {self.green()}True{self.normal()}')
+            self.config.set('MISC', 'auto_push','TRUE')
+            self.auto_push = True
+        print()
 
         with open(self.config_dir_path, 'w') as configfile:
-            config.write(configfile)
+            self.config.write(configfile)
 
 
 pt = ProblemTracker()
