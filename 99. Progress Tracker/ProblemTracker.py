@@ -95,6 +95,7 @@ class ProblemTracker:
         self.github_repo = self.config.get('GITHUB', 'repo_name')
         self.output_dir_path = self.config.get('DIR_PATHS', 'output_dir')
         self.auto_push = True if self.config.get('MISC', 'auto_push').lower() == "true" else False
+        self.repo_dir += self.config.get('DIR_PATHS', 'repo_dir')
 
     # Constructor
     def __init__(self):
@@ -119,6 +120,8 @@ class ProblemTracker:
         self.config_dir_path = os.path.join(self.package_dir, 'Config\\config.cfg')
         # Path to the lists of problems
         self.lists_dir_path = os.path.join(self.package_dir, 'Lists\\')
+        # Path to the local repository (will append to it from config file)
+        self.repo_dir = self.package_dir
 
         # Read the files
         self.readFiles()
@@ -142,7 +145,7 @@ class ProblemTracker:
         # after it
         if doPrint:
             print('\033[0m', end="")
-        return '\x1b[1;32;40m'
+        return '\033[0m'
 
     # Functions to assign cyan color when printing to the console
     def cyan(self, doPrint=True):
@@ -368,19 +371,21 @@ class ProblemTracker:
         ans = input(f'\nAre you sure you want to mark as solved the problem: "{p[p_index-1]}" (y/n): ')
         # If they accept, mark the problem as solved
         if ans.lower() in ["yes", "y"]:
-           self.addSolved(p[p_index-1], c_index)
+            self.addSolved(p[p_index-1], c_index)
 
-        if self.auto_push:
-            os.system('cls')
-            print(f'{self.cyan(False)}Updating README.md{self.normal(False)}')
-            self.createReadme()
-            print(f'{self.cyan(False)}Pushing changes to remote repository{self.normal(False)}')
-            print(f'{self.cyan(False)}git add .{self.normal(False)}')
-            os.system('git add .')
-            print(f'{self.cyan(False)}git commit -m "Add \'{p[p_index-1]}\' solution"{self.normal(False)}')
-            os.system(f'git commit -m "Add \'{p[p_index-1]}\' solution"')
-            print(f'{self.cyan(False)}git push origin main{self.normal(False)}')
-            os.system('git push origin main')
+            if self.auto_push:
+                os.system('cls')
+                print(f'{self.cyan(False)}Updating README.md{self.normal(False)}')
+                self.createReadme()
+                print(f'{self.cyan(False)}Pushing changes to remote repository{self.normal(False)}')
+                print(f'{self.cyan(False)}cd {self.repo_dir}{self.normal(False)}')
+                os.system(f'cd {self.repo_dir}')
+                print(f'{self.cyan(False)}git add .{self.normal(False)}')
+                os.system('git add .')
+                print(f'{self.cyan(False)}git commit -m "Add \'{p[p_index-1]}\' solution"{self.normal(False)}')
+                os.system(f'git commit -m "Add \'{p[p_index-1]}\' solution"')
+                print(f'{self.cyan(False)}git push origin main{self.normal(False)}')
+                os.system('git push origin main')
 
     def markAsUnsolved(self):
         # Get the indexes of the categories that have no solved problem and
@@ -413,19 +418,21 @@ class ProblemTracker:
         ans = input(f'\nAre you sure you want to mark as unsolved the problem: "{p[p_index-1]}" (y/n): ')
         # If they accept, mark the problem as solved
         if ans.lower() in ["yes", "y"]:
-           self.removeSolved(p[p_index-1], c_index)
+            self.removeSolved(p[p_index-1], c_index)
 
-        if self.auto_push:
-            os.system('cls')
-            print(f'{self.cyan(False)}Updating README.md{self.normal(False)}')
-            self.createReadme()
-            print(f'{self.cyan(False)}Pushing changes to remote repository{self.normal(False)}')
-            print(f'{self.cyan(False)}git add .{self.normal(False)}')
-            os.system('git add .')
-            print(f'{self.cyan(False)}git commit -m "Add \'{p[p_index-1]}\' solution"{self.normal(False)}')
-            os.system(f'git commit -m "Add \'{p[p_index-1]}\' solution"')
-            print(f'{self.cyan(False)}git push origin main{self.normal(False)}')
-            os.system('git push origin main')
+            if self.auto_push:
+                os.system('cls')
+                print(f'{self.cyan(False)}Updating README.md{self.normal(False)}')
+                self.createReadme()
+                print(f'{self.cyan(False)}Pushing changes to remote repository{self.normal(False)}')
+                print(f'{self.cyan(False)}cd {self.repo_dir}{self.normal(False)}')
+                os.system(f'cd {self.repo_dir}')
+                print(f'{self.cyan(False)}git add .{self.normal(False)}')
+                os.system('git add .')
+                print(f'{self.cyan(False)}git commit -m "Add \'{p[p_index-1]}\' solution"{self.normal(False)}')
+                os.system(f'git commit -m "Add \'{p[p_index-1]}\' solution"')
+                print(f'{self.cyan(False)}git push origin main{self.normal(False)}')
+                os.system('git push origin main')
 
     def getSolvedProblemsByList(self, list_name):
         solved = 0
