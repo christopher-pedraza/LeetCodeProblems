@@ -344,8 +344,12 @@ class ProblemTracker:
             # Iterate over the set of solved problems rewriting the
             # solved problems' file
             with open(self.solved_dir_path, 'w') as f:
-                for p in self.solved_problems_set:
-                    f.write(f"{p}\n")
+                for i, p in enumerate(self.solved_problems_set):
+                    f.write(f"{p}")
+                    # To prevent writing an extra line jump at the end
+                    # of the file
+                    if i != len(self.solved_problems_set)-1:
+                        f.write("\n")
 
     def markAsSolved(self):
         # Get the indexes of the categories that have at least one problem
@@ -387,14 +391,12 @@ class ProblemTracker:
                 print(f'{self.cyan(False)}Updating README.md{self.normal(False)}')
                 self.createReadme()
                 print(f'{self.cyan(False)}Pushing changes to remote repository{self.normal(False)}')
-                print(f'{self.cyan(False)}cd {self.repo_dir}{self.normal(False)}')
-                os.system(f'cd {self.repo_dir}')
-                print(f'{self.cyan(False)}git add .{self.normal(False)}')
-                os.system('git add .')
-                print(f'{self.cyan(False)}git commit -m "Add \'{p[p_index-1]}\' solution"{self.normal(False)}')
-                os.system(f'git commit -m "Add \'{p[p_index-1]}\' solution"')
-                print(f'{self.cyan(False)}git push origin main{self.normal(False)}')
-                os.system('git push origin main')
+                print(f'{self.cyan(False)}git -C "{self.repo_dir}" add .{self.normal(False)}')
+                os.system(f'git -C "{self.repo_dir}" add .')
+                print(f'{self.cyan(False)}git -C "{self.repo_dir}" commit -m "Add \'{p[p_index-1]}\' solution"{self.normal(False)}')
+                os.system(f'git -C "{self.repo_dir}" commit -m "Add \'{p[p_index-1]}\' solution"')
+                print(f'{self.cyan(False)}git -C "{self.repo_dir}" push origin main{self.normal(False)}')
+                os.system(f'git -C "{self.repo_dir}" push origin main')
                 print()
 
     def markAsUnsolved(self):
