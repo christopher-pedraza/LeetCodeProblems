@@ -1,4 +1,5 @@
-# Time complexity: O(n)
+# Time complexity: O(p + q) where p is the # of nodes in the Tree
+#                  p, and q the # of nodes in the Tree q
 # Space complexity: O(1)
 
 # Definition for a binary tree node.
