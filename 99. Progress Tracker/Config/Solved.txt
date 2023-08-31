@@ -42,3 +42,4 @@ lowest common ancestor of a binary search tree
 binary tree level order traversal
 validate binary search tree
 kth smallest element in a bst
+construct binary tree from preorder and inorder traversal
