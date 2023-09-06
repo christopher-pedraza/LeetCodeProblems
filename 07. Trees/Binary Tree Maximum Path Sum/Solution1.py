@@ -57,6 +57,10 @@ class Solution:
     	# Add the res to a list so we can edit it easier in the
     	# recursive function. We are only going to be using the
     	# first value
+        # If we didn't want to use a global variable, we could
+        # return two values from the dfs -> the max sum when
+        # splitting, and the max sum without splitting
+        # (currently only returning the later)
         res = [root.val]
 
         # Return max path sum without split
