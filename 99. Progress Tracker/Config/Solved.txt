@@ -46,3 +46,4 @@ construct binary tree from preorder and inorder traversal
 binary tree maximum path sum
 serialize and deserialize binary tree
 implement trie prefix tree
+design add and search words data structure
