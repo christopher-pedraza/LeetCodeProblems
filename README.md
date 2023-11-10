@@ -3,9 +3,9 @@
 # LeetCodeProblems
 
 ## Overall progress
-![](https://progress-bar.dev/46/?scale=75&suffix=/75) **Blind75**
+![](https://progress-bar.dev/47/?scale=75&suffix=/75) **Blind75**
 
-![](https://progress-bar.dev/58/?scale=150&suffix=/150) **NeetCode150**
+![](https://progress-bar.dev/59/?scale=150&suffix=/150) **NeetCode150**
 
 ## Progress per list of problems
 
@@ -21,7 +21,7 @@
 | [08. Tries](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/08.%20Tries) | ![](https://progress-bar.dev/3/?scale=3&suffix=/3) | ![](https://progress-bar.dev/3/?scale=3&suffix=/3) |
 | [09. Heap - Priority Queue](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/09.%20Heap%20-%20Priority%20Queue) | ![](https://progress-bar.dev/1/?scale=1&suffix=/1) | ![](https://progress-bar.dev/1/?scale=7&suffix=/7) |
 | [10. Backtracking](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/10.%20Backtracking) | ![](https://progress-bar.dev/2/?scale=2&suffix=/2) | ![](https://progress-bar.dev/2/?scale=9&suffix=/9) |
-| [11. Graphs](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/11.%20Graphs) | ![](https://progress-bar.dev/5/?scale=6&suffix=/6) | ![](https://progress-bar.dev/5/?scale=13&suffix=/13) |
+| [11. Graphs](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/11.%20Graphs) | ![](https://progress-bar.dev/6/?scale=6&suffix=/6) | ![](https://progress-bar.dev/6/?scale=13&suffix=/13) |
 | [12. Advanced Graphs](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/12.%20Advanced%20Graphs) | ![](https://progress-bar.dev/0/?scale=1&suffix=/1) | ![](https://progress-bar.dev/0/?scale=6&suffix=/6) |
 | [13. 1-D Dynamic Programming](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/13.%201-D%20Dynamic%20Programming) | ![](https://progress-bar.dev/0/?scale=10&suffix=/10) | ![](https://progress-bar.dev/0/?scale=12&suffix=/12) |
 | [14. 2-D Dynamic Programming](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/14.%202-D%20Dynamic%20Programming) | ![](https://progress-bar.dev/0/?scale=2&suffix=/2) | ![](https://progress-bar.dev/0/?scale=11&suffix=/11) |
