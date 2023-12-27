@@ -65,3 +65,4 @@ longest palindromic substring
 palindromic substrings
 decode ways
 coin change
+maximum product subarray
