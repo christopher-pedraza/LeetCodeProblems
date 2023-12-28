@@ -66,3 +66,4 @@ palindromic substrings
 decode ways
 coin change
 maximum product subarray
+word break
