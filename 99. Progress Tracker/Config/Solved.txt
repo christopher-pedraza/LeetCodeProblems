@@ -71,3 +71,4 @@ longest increasing subsequence
 rotate image
 spiral matrix
 set matrix zeroes
+number of 1 bits
