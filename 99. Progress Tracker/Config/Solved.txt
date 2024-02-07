@@ -74,3 +74,4 @@ set matrix zeroes
 number of 1 bits
 counting bits
 reverse bits
+missing number

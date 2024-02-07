@@ -3,9 +3,9 @@
 # LeetCodeProblems
 
 ## Overall progress
-![](https://progress-bar.dev/64/?scale=75&suffix=/75) **Blind75**
+![](https://progress-bar.dev/65/?scale=75&suffix=/75) **Blind75**
 
-![](https://progress-bar.dev/76/?scale=150&suffix=/150) **NeetCode150**
+![](https://progress-bar.dev/77/?scale=150&suffix=/150) **NeetCode150**
 
 ## Progress per list of problems
 
@@ -28,6 +28,6 @@
 | [15. Greedy](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/15.%20Greedy) | ![](https://progress-bar.dev/0/?scale=2&suffix=/2) | ![](https://progress-bar.dev/0/?scale=8&suffix=/8) |
 | [16. Intervals](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/16.%20Intervals) | ![](https://progress-bar.dev/0/?scale=5&suffix=/5) | ![](https://progress-bar.dev/0/?scale=6&suffix=/6) |
 | [17. Math & Geometry](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/17.%20Math%20%26%20Geometry) | ![](https://progress-bar.dev/3/?scale=3&suffix=/3) | ![](https://progress-bar.dev/3/?scale=8&suffix=/8) |
-| [18. Bit Manipulation](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/18.%20Bit%20Manipulation) | ![](https://progress-bar.dev/3/?scale=5&suffix=/5) | ![](https://progress-bar.dev/3/?scale=7&suffix=/7) |
+| [18. Bit Manipulation](https://github.com/christopher-pedraza/LeetCodeProblems/tree/main/18.%20Bit%20Manipulation) | ![](https://progress-bar.dev/4/?scale=5&suffix=/5) | ![](https://progress-bar.dev/4/?scale=7&suffix=/7) |
 
 Made with [LeetCode Progress Tracker](https://github.com/christopher-pedraza/leetcode-problem-tracker/)
